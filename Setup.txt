@@ -1,0 +1,23 @@
+# steps to set up the project, draft for memory firstly.
+# it's for
+
+
+# The project is required to be done by python 2.7.5, please ensure you get it enabled.
+
+install pip (different for different systems)
+
+pip install virtualenv
+
+cd data_analysis_project
+
+# Build virtual environment for the project
+virtualenv ../data_analysis_project_env --no-site-package
+
+# Enter thr virtual environment
+source ../data_analysis_project_env/bin/activate
+
+# Install required package.
+python -m pip install -r requirements.txt
+
+
+
